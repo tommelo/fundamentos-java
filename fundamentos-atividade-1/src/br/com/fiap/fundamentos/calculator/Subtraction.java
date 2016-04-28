@@ -4,14 +4,12 @@ public class Subtraction implements ArithmeticOperation {
 
 	@Override
 	public double calculate(double x, double y) {
-
-		return 0;
+		return x - y;
 	}
 
 	@Override
-	public int calculate(int x, int y) {
-		// TODO Auto-generated method stub
-		return 0;
+	public int calculate(int x, int y) {		
+		return x - y;
 	}
 
 }
